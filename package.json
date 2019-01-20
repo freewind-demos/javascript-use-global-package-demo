@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "demo": "node hello.js"
+    "demo": "npm link lodash && node hello.js"
   },
-  "dependencies": {
+  "peerDependencies": {
     "lodash": "^4.17.10"
   }
 }
