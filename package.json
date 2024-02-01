@@ -1,8 +1,8 @@
 {
-    "scripts": {
-        "start": "npm link lodash && node hello.js"
-    },
-    "peerDependencies": {
-        "lodash": "^4.17.10"
-    }
+  "scripts": {
+    "start": "npm link lodash && node hello.js"
+  },
+  "peerDependencies": {
+    "lodash": "4.17.10"
+  }
 }
